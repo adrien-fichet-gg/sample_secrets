@@ -23,3 +23,6 @@ def pull_data_from_mongo(query: Dict):
 def push_mongo_to_s3(query):
     for element in pull_data_from_mongo(query):
         upload(element)
+
+
+apikey = '16d56949c3b3d34b6f50c8e2fffc831a-us25'
